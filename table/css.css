@@ -1,0 +1,24 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.multi_table td {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    width: 2rem;
+    height: 2rem;
+    font-weight: 700;
+}
+
+.multi_table {
+    border: 1px solid gray;
+    text-align: center;
+}
+
+.d_td {
+    background-color: darkgray;
+}
+
+.multi_table tr:first-of-type td:first-of-type {
+    background-color: white;
+}
